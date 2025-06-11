@@ -205,23 +205,6 @@
     });
 });
 
-// Form submission handler
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('¡Gracias por tu mensaje! Te contactaré pronto.');
-    this.reset();
-});
 
-// Add hover effects to table rows
-document.querySelectorAll('table tr').forEach(row => {
-    row.addEventListener('mouseenter', function() {
-        this.style.transform = 'scale(1.02)';
-        this.style.transition = 'transform 0.3s ease';
-    });
-    
-    row.addEventListener('mouseleave', function() {
-        this.style.transform = 'scale(1)';
-    });
-});</script>
 </body>
 </html>
